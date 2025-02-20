@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - PsycheKinesis</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Registro - PsycheKinesis</h1>
+    </header>
+
+    <div class="contenido">
+        <h2>Crear una cuenta</h2>
+        <form id="registerForm" onsubmit="return register(event)">
+            <div>
+                <label for="registerEmail">Correo electrónico:</label>
+                <input type="email" id="registerEmail" required placeholder="ejemplo@dominio.com">
+            </div>
+            <div>
+                <label for="registerPassword">Contraseña:</label>
+                <input type="password" id="registerPassword" required placeholder="********">
+            </div>
+            <div>
+                <label for="registerName">Nombre Completo:</label>
+                <input type="text" id="registerName" required placeholder="Nombre Completo">
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 PsycheKinesis. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

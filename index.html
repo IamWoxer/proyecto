@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - PsycheKinesis</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src="java/java.js" defer></script> 
+</head>
+<body>
+    <header>
+        <h1>Iniciar Sesión - PsycheKinesis</h1>
+    </header>
+
+    <div class="contenido">
+        <h2>Por favor, ingresa tus datos</h2>
+        <form id="loginForm" onsubmit="return login(event)">
+            <div>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" required placeholder="ejemplo@dominio.com">
+            </div>
+            <div>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" required placeholder="********">
+            </div>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+
+        <div class="registro">
+            <p>¿No tienes cuenta?</p> 
+            <div>
+            <a href="html/login.html" class="btn-registrarse">Regístrate aquí</a>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="html/inicio.html">Bienestar</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>&copy; 2025 PsycheKinesis. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
